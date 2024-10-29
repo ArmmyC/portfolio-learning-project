@@ -4,7 +4,7 @@ let aboutbg = gsap.timeline({
     start: "-30% 90%",
     end: "bottom 0%",
     scrub: true,
-    markers: true,
+    markers: false,
   },
 });
 
@@ -18,7 +18,7 @@ let education = gsap.timeline({
     start: "bottom 50%",
     end: "200% 50%",
     scrub: true,
-    markers: true,
+    markers: false,
   },
 });
 
@@ -32,7 +32,7 @@ let about = gsap.timeline({
     start: "top 100%",
     end: "bottom 50%",
     scrub: false,
-    markers: true,
+    markers: false,
     toggleActions: "play reverse play reverse",
   },
 });
